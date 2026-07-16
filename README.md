@@ -40,8 +40,8 @@ asyncio.run(app.run())
 
 # Links
 
-- PyPI: https://pypi.org/project/Gyron/
-- GitHub: https://github.com/YasinOliayi/Gyron
+- PyPI: https://pypi.org/project/gyron/
+- GitHub: https://github.com/YasinOliayi/gyron
 
 ---
 
