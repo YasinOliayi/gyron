@@ -1,0 +1,50 @@
+site_name: gyron Documentation
+
+nav:
+  - Home: index.md
+  - Methods: methods.md
+  - Models: models.md
+  - Filters: filters.md
+  - State: state.md
+  - Enums: enums.md
+
+theme:
+  name: material
+  language: fa
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+
+  palette:
+    - scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+    - scheme: default
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+
+  - pymdownx.superfences
+
+plugins: []
+
+extra_css:
+  - https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap
+  - stylesheets/extra.css
