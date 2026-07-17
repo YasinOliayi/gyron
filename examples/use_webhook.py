@@ -18,7 +18,7 @@ async def main():
 
     res = await app.set_webhook(webhook_url)
 
-    if res:
+    if res.ok:
         print('started')
         await app.run(webhook_path='/webhk')
 
