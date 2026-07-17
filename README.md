@@ -43,7 +43,6 @@ asyncio.run(app.run())
 - PyPI: https://pypi.org/project/gyron/
 - GitHub: https://github.com/YasinOliayi/gyron
 - Documentation : https://yasinoliayi.github.io/gyron/
-- bale channel id : @gyron
 
 ---
 
