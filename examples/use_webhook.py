@@ -1,3 +1,5 @@
+# pip install gyron[webhook]
+
 from gyron.bot import BotClient
 import asyncio
 
