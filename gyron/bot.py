@@ -1009,12 +1009,12 @@ class BotClient:
     
     
     
-    async def extract_referral_payload(self, text : str) -> Union[int, None] :
+    async def extract_referral_payload(self, text : str) -> Union[str, None] :
 
         result = text.split(maxsplit=1)
 
         if len(result) == 2 and result[0] == '/start':
-            return int(result[1])
+            return str(result[1])
  
         return None
     
